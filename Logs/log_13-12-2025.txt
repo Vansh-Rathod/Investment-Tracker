@@ -1,0 +1,28 @@
+{
+  "Id": "23e98c0a-d673-46ed-bbe5-278e0aef4456",
+  "Timestamp": "2025-12-13T20:27:28.0235927+05:30",
+  "Level": "Critical",
+  "Source": "AuthController.Login",
+  "Message": "Exception occurred while login",
+  "Exception": "System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at EquityTrackerWebAPI.Controllers.AuthController.Login(LoginRequestDTO model) in D:\\VANSH\\Projects\\EquityTracker\\EquityTrackerWebAPI\\Controllers\\AuthController.cs:line 64",
+  "StackTrace": "   at EquityTrackerWebAPI.Controllers.AuthController.Login(LoginRequestDTO model) in D:\\VANSH\\Projects\\EquityTracker\\EquityTrackerWebAPI\\Controllers\\AuthController.cs:line 64",
+  "AdditionalData": {
+    "Email": "vansh@satvasolutions.com",
+    "Password": "1234"
+  }
+}
+--------------------------------------------------------------------------------
+{
+  "Id": "06e4d66a-01a8-4aeb-afd9-2132bd20f3fc",
+  "Timestamp": "2025-12-13T20:29:50.7853893+05:30",
+  "Level": "Critical",
+  "Source": "AuthController.Login",
+  "Message": "Exception occurred while login",
+  "Exception": "System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at EquityTrackerWebAPI.Controllers.AuthController.Login(LoginRequestDTO model) in D:\\VANSH\\Projects\\EquityTracker\\EquityTrackerWebAPI\\Controllers\\AuthController.cs:line 64",
+  "StackTrace": "   at EquityTrackerWebAPI.Controllers.AuthController.Login(LoginRequestDTO model) in D:\\VANSH\\Projects\\EquityTracker\\EquityTrackerWebAPI\\Controllers\\AuthController.cs:line 64",
+  "AdditionalData": {
+    "Email": "vansh@satvasolutions.com",
+    "Password": "1234"
+  }
+}
+--------------------------------------------------------------------------------
