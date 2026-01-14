@@ -1,0 +1,15 @@
+CREATE TABLE Stocks
+(
+    StockId INT IDENTITY(1,1) NOT NULL CONSTRAINT PK_Stock_Id PRIMARY KEY,
+    StockName NVARCHAR(500) NOT NULL,
+    Symbol NVARCHAR(50) NOT NULL,
+    ExchangeId INT NOT NULL,
+    ISIN NVARCHAR(200) NULL,
+    IsActive BIT NOT NULL DEFAULT (1),
+
+    CONSTRAINT FK_Stocks_Exchanges 
+        FOREIGN KEY (ExchangeId) REFERENCES Exchanges(ExchangeId),
+);
+
+ALTER TABLE Stocks
+ADD IsETF BIT NOT NULL DEFAULT (0)

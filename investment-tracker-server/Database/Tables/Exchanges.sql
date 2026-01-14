@@ -1,0 +1,6 @@
+CREATE TABLE Exchanges
+(
+    ExchangeId INT IDENTITY(1,1) NOT NULL CONSTRAINT PK_Exchange_Id PRIMARY KEY,
+    Name NVARCHAR(200) NOT NULL,
+    ShortName NVARCHAR(50) NOT NULL,  
+);

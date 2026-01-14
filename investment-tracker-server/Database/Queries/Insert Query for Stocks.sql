@@ -1,0 +1,21 @@
+INSERT INTO Stocks (StockName, Symbol, ExchangeId, IsETF)
+VALUES
+('Nippon India Silver ETF', 'SILVERBEES', 1, 1),
+('Motilal Oswal MOSt Shares NASDAQ-100 ETF', 'MON100', 1, 1),
+('ITC', 'ITC', 1, 0),
+('Oil & Natural Gas Corporation', 'ONGC', 1, 0),
+('GAIL (India)', 'GAIL', 1, 0),
+('Tata Consultancy Services', 'TCS', 1, 0),
+('Nippon India ETF Gold BeES', 'GOLDBEES', 1, 1),
+('HDFC NIFTY Smallcap 250 ETF', 'HDFCSML250', 1, 1),
+('Coal India', 'COALINDIA', 1, 0),
+('Infosys', 'INFY', 1, 0),
+('NHPC', 'NHPC', 1, 0),
+('ICICI Prudential Nifty Metal ETF', 'METALIETF', 1, 1),
+('NTPC', 'NTPC', 1, 0),
+('Wipro', 'WIPRO', 1, 0),
+('Mirae Asset Hang Seng TECH ETF', 'MAHKTECH', 1, 1),
+('Brookfield India Real Estate Trust REIT', 'BIRET', 1, 0),
+('SBI-ETF NIFTY 50', 'SETFNIF50', 1, 1),
+('UTI Nifty Next 50 ETF', 'NEXT50BETA', 1, 1),
+('Nexus Select Trust', 'NXST', 1, 0);

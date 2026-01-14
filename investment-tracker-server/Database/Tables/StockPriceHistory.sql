@@ -1,0 +1,8 @@
+CREATE TABLE StockPriceHistory
+(
+    StockId INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+    PriceDate DATETIME NOT NULL,
+    ClosePrice DECIMAL(10,2) NOT NULL,
+    CreatedDate DATETIME NOT NULL DEFAULT (GETDATE()),
+    ModifiedDate DATETIME NULL 
+);
